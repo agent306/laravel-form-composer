@@ -25,7 +25,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Agent306\\FormComposer\\FormComposerProvider"
+                "Agent306\\FormComposer\\Providers\\FormComposerProvider"
             ]
         }
     }
