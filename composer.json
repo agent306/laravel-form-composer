@@ -1,0 +1,32 @@
+{
+    "name": "agent306/form-composer",
+    "description": "Let your end users decide how a form looks for THEIR end users. Let your mind be free",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Agent306\\FormComposer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "agent306",
+            "email": "mhdnashath@gmail.com"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {
+        "php": "^8.0",
+        "ext-json": "*",
+        "illuminate/console": "^9.18|^10.0",
+        "illuminate/database": "^9.18|^10.0",
+        "illuminate/support": "^9.18|^10.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Agent306\\FormComposer\\FormComposerProvider"
+            ]
+        }
+    }
+}
